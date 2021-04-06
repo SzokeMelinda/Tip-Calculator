@@ -6,7 +6,7 @@ body {
 
 #container {
     width: 400px;
-    margin: 40px auto 0;
+    margin: 0 auto;
     padding: 50px;
     box-sizing: border-box;
     background: url('img/paperPattern.jpg') top left repeat;
@@ -86,6 +86,33 @@ form label {
    font-size: 14px;
    font-weight: bold;
    display: block;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    #container{
+        width: 100%;
+        margin: 0 auto;
+       
+    }
+    #calculator{
+        width: 100%;
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 80%;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    label.howmuch {
+        margin-top: 0;
+    }
 }
 
 
